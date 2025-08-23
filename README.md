@@ -39,6 +39,13 @@ v4l2-ctl -d 0 --all
 ```
 Update `deepstream_app_config.txt` to use yolov5 configuration file. Compile the libraries and run `deepstream-app -c deepstream_app_config.txt`. The generated TensorRT files have a common name be defailt. Either rename it after generation or edit the cpp file and recompile them.
 
+## Sample Face Videos
+- [Head pose female and male](https://github.com/intel-iot-devkit/sample-videos/blob/master/head-pose-face-detection-female-and-male.mp4)
+- [Head pose female](https://github.com/intel-iot-devkit/sample-videos/blob/master/head-pose-face-detection-female.mp4)
+- [Head post male](https://github.com/intel-iot-devkit/sample-videos/blob/master/head-pose-face-detection-male.mp4)
+- [Walk and pause](https://github.com/intel-iot-devkit/sample-videos/blob/master/face-demographics-walking-and-pause.mp4)
+- [Walk](https://github.com/intel-iot-devkit/sample-videos/blob/master/face-demographics-walking.mp4)
+
 ## FDDB
 To generate the discrete and continuous curves use one of the docker images
 - https://hub.docker.com/r/tahirishaq10/fddb_evaluator
@@ -55,3 +62,4 @@ The official visualization software uses GNUplot to generate the plots. Some hav
 - [Increase YOLO performace in DeepStream](https://forums.developer.nvidia.com/t/deepstream-6-yolo-performance-issue/194238/20)
 - [DeepStream Examples - v1.1.1 is for deepstream 6.0.1](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps)
 - [Intro to DeepStream](https://blog.ml6.eu/nvidia-deepstream-quickstart-9147dd49a15d)
+- [Sample Face detection videos](https://github.com/intel-iot-devkit/sample-videos)
