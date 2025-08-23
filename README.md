@@ -63,3 +63,4 @@ The official visualization software uses GNUplot to generate the plots. Some hav
 - [DeepStream Examples - v1.1.1 is for deepstream 6.0.1](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps)
 - [Intro to DeepStream](https://blog.ml6.eu/nvidia-deepstream-quickstart-9147dd49a15d)
 - [Sample Face detection videos](https://github.com/intel-iot-devkit/sample-videos)
+- [TensorRT Code](https://github.com/alxmamaev/jetson_yolov5_tensorrt)
